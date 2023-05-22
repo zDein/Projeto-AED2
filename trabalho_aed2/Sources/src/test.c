@@ -27,33 +27,6 @@ void erase(noarv *arvore){
 	}
 }
 
-//percorrendo arvore da esquerda depois a direita ate a raiz principal
-void viewPost(noarv *arvore){
-	if (arvore){
-		viewPost(arvore->esquerda);
-		viewPost(arvore->direita);
-		printf("| %d %s |", arvore->p.id, arvore->p.nome_produto);
-	}
-}
-
-void viewin(noarv *arvore){
-	if (arvore){
-		viewin(arvore->esquerda);
-		printf("| %d %s | ", arvore->p.id, arvore->p.nome_produto);
-		viewin(arvore->direita);
-	}
-}
-
-
-void viewpre(noarv *arvore){
-	if (arvore){
-		printf("| %d %s | ", arvore->p.id, arvore->p.nome_produto);
-		viewpre(arvore->esquerda);
-		viewpre(arvore->direita);
-	}
-}
-
-
 noarv* busca(noarv *arvore, int chave){
 
     if (!arvore){
