@@ -1,13 +1,12 @@
-
 void menu() { 
       printf("1 - Insira o produto\n");
       printf("2 - Remova o produto\n");
       printf("3 - Buscar o produto\n");
       printf("4 - Alterar o produto\n");
-      printf("5 - Mostra os produtos com maior estoque\n");
+      printf("5 - Exibir produtos em ordem alfabetica (A-Z)\n");
       printf("6 - Mostra os produtos com maior notas\n");
       printf("7 - Mostra os produtos com maior preco/menor preco\n");
-      printf("8 - Mostrar produtos com maior preco/menor preco\n");
+      printf("8 - Mostrar produtos com maior preco/menor estoque\n");
       printf("9 - Comprar produto\n");
       printf("10 - Sair\n");
       printf("Entre com a opcao desejada: \n");
@@ -290,7 +289,7 @@ void organizar_lista(ELEM* inicio, LISTA* LISTA, int opcao){
                 //case 1 numero de vendas, case 2 notas, case 3/4 maior/menor preços;
                 switch(opcao){
                     case 1:
-                        if(atual->dado.p.qtd_produto<proximo->dado.p.qtd_produto){
+                        if(strcmp(atual->dado.p.nome_produto, proximo->dado.p.nome_produto)>0){
                             aux = proximo->dado;
                             proximo->dado = atual->dado;
                             atual->dado = aux;
@@ -344,7 +343,7 @@ void organizar_lista(ELEM* inicio, LISTA* LISTA, int opcao){
 void imprimir_lista(ELEM* elemento){
     ELEM* aux = elemento;
     int continuar=1, count=25;
-    printf("| ID\tNome\t\t    Preco\tQuantidade\t Nota\n");
+    printf("\n| ID\tNome\t\t    Preco\tQuantidade\t Nota\n");
     while(aux!=NULL && continuar!=0){
         while(count-- && aux!=NULL){
             
