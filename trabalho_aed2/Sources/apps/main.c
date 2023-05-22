@@ -113,7 +113,7 @@ int main(){
 
             case 8:
                 lista_filtrada = iniciar_lista();
-                printf("Digite 5 para mostrar os maiores preços ou 6 para exibir os menores\n");
+                printf("Digite 5 para mostrar os os produtos com maior quantidade ou 6 para exibir os produtos com menores quantidade\n");
                 scanf("%d", &opcao_exibicao);
                 if(opcao_exibicao==5 || opcao_exibicao==6){
                     printf("%d\n", opcao_exibicao);
