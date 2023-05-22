@@ -13,7 +13,7 @@ void menu() {
       printf("5 - Listar produtos em ordem alfabetica (A-Z)\n");
       printf("6 - Listar produtos com maior nota\n");
       printf("7 - Listar produtos com maior preco/menor preco\n");
-      printf("8 - Listar produtos com maior preco/menor estoque\n");
+      printf("8 - Listar produtos com maior estoque/menor estoque\n");
       printf("9 - Comprar produto\n");
       printf("10 - Sair\n");
       printf("Entre com a opcao desejada: \n");
