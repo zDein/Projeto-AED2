@@ -8,7 +8,7 @@ typedef struct produto{
   //  int qtd_vendas;
     float preco;
     float nota;
-    char nome_produto[100];
+    char nome_produto[20];
 }produto;
 
 //criando o struct da arvore
