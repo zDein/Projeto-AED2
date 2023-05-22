@@ -3,8 +3,6 @@
 #include <string.h>
 #include <stdbool.h>
 #include "test.h"
-
-
 int main(){
     char nomep[100], produto_comprado[100], chave[100], compras[100];
     //unsigned short i;
@@ -82,6 +80,7 @@ int main(){
                 inserir_nos(lista_filtrada, arvore);
                 opcao_exibicao = 1;
                 organizar_lista(lista_filtrada->inicio, lista_filtrada, opcao_exibicao);
+                printf("\nORDEM ALFABETICA (A-Z)");
                 imprimir_lista(lista_filtrada->inicio); // maior estoque
                 resetar_lista(lista_filtrada->inicio);
                 printf("\n");
@@ -92,6 +91,7 @@ int main(){
                 inserir_nos(lista_filtrada, arvore);
                 opcao_exibicao = 2;
                 organizar_lista(lista_filtrada->inicio, lista_filtrada, opcao_exibicao); //nota
+                printf("\nMAIOR NOTA");
                 imprimir_lista(lista_filtrada->inicio);
                 resetar_lista(lista_filtrada->inicio);
                 printf("\n");
@@ -99,10 +99,11 @@ int main(){
             
              case 7:
                 lista_filtrada = iniciar_lista();
-                printf("Digite 3 para mostrar os maiores preços ou 4 para exibir os menores\n");
+                printf("Digite 3 para mostrar os maiores precos ou 4 para exibir os menores\n");
                 scanf("%d", &opcao_exibicao);
                 if(opcao_exibicao==3 || opcao_exibicao==4){
-                    printf("%d\n", opcao_exibicao);
+                    if(opcao_exibicao==3) printf("\nMAIOR PRECO");
+                    else printf("\nMENOR PRECO");
                     inserir_nos(lista_filtrada, arvore);
                     organizar_lista(lista_filtrada->inicio, lista_filtrada, opcao_exibicao);
                     imprimir_lista(lista_filtrada->inicio);
@@ -113,9 +114,11 @@ int main(){
 
             case 8:
                 lista_filtrada = iniciar_lista();
-                printf("Digite 5 para mostrar os os produtos com maior quantidade ou 6 para exibir os produtos com menores quantidade\n");
+                printf("Digite 5 para mostrar os produtos com maior estoque ou 6 para exibir os com menor estoque\n");
                 scanf("%d", &opcao_exibicao);
                 if(opcao_exibicao==5 || opcao_exibicao==6){
+                    if(opcao_exibicao==5) printf("\nMAIOR ESTOQUE");
+                    else printf("\nMENOR ESTOQUE");
                     printf("%d\n", opcao_exibicao);
                     inserir_nos(lista_filtrada, arvore);
                     organizar_lista(lista_filtrada->inicio, lista_filtrada, opcao_exibicao);
