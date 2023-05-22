@@ -327,7 +327,7 @@ void imprimir_lista(ELEM* elemento){
     int continuar=1, count=25;
     time_t temp;
     time(&temp);
-
+    puts("\n---------------------------------------------------------------------------------");
     strcpy(elemento->dado.p.horario, ctime(&temp));
     printf("\n| ID\tNome\t\t    Preco\tQuantidade\t Nota\n");
     while(aux!=NULL && continuar!=0){
