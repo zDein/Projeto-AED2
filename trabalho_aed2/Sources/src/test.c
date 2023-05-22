@@ -3,6 +3,7 @@
 #include <string.h>
 #include <stdbool.h>
 #include <time.h>
+#include "test.h"
 
 void menu() { 
       printf("1 - Cadastrar produto\n");
