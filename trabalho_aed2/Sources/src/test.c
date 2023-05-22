@@ -1,8 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdbool.h>
-#include "test.h"
 
 void menu() { 
       printf("1 - Insira o produto\n");
@@ -26,6 +21,33 @@ void erase(noarv *arvore){
 		arvore = NULL;
 	}
 }
+
+//percorrendo arvore da esquerda depois a direita ate a raiz principal
+void viewPost(noarv *arvore){
+	if (arvore){
+		viewPost(arvore->esquerda);
+		viewPost(arvore->direita);
+		printf("| %d %s |", arvore->p.id, arvore->p.nome_produto);
+	}
+}
+
+void viewin(noarv *arvore){
+	if (arvore){
+		viewin(arvore->esquerda);
+		printf("| %d %s | ", arvore->p.id, arvore->p.nome_produto);
+		viewin(arvore->direita);
+	}
+}
+
+
+void viewpre(noarv *arvore){
+	if (arvore){
+		printf("| %d %s | ", arvore->p.id, arvore->p.nome_produto);
+		viewpre(arvore->esquerda);
+		viewpre(arvore->direita);
+	}
+}
+
 
 noarv* busca(noarv *arvore, int chave){
 
@@ -62,6 +84,10 @@ noarv * acharmaior(noarv *arvore){
 		return acharmaior(arvore->direita);
     }
 }
+
+/*int max(int a, int b) {
+    return a > b ? a : b;
+}*/
 
 // calcula a altura da arvore (maior caminho da raiz até um nó folha).
 int altura(noarv *arvore){ 
@@ -314,13 +340,15 @@ void organizar_lista(ELEM* inicio, LISTA* LISTA, int opcao){
     }
 }
 
+
 void imprimir_lista(ELEM* elemento){
     ELEM* aux = elemento;
     int continuar=1, count=25;
+    printf("| ID\tNome\t\t    Preco\tQuantidade\t Nota\n");
     while(aux!=NULL && continuar!=0){
         while(count-- && aux!=NULL){
             
-            printf("| %d\t %s - R$ %.2f \tQTD: %-6d  NOTA: %.2f\n", aux->dado.p.id, aux->dado.p.nome_produto, aux->dado.p.preco, aux->dado.p.qtd_produto, aux->dado.p.nota);
+            printf("| %d\t%-20sR$%-8.2f\tQTD: %-12dNOTA: %-12.2f\n", aux->dado.p.id, aux->dado.p.nome_produto, aux->dado.p.preco, aux->dado.p.qtd_produto, aux->dado.p.nota);
             aux = aux->proximo;
         }
     }
@@ -330,6 +358,7 @@ void imprimir_lista(ELEM* elemento){
         count = 25;
     }
 }
+
 
 noarv* alterar_no(noarv* arvore, const char* produto_alterado) {
     int opc, qtd;
