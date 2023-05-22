@@ -3,6 +3,7 @@
 #include <string.h>
 #include <stdbool.h>
 #include "test.h"
+
 int main(){
     char nomep[100], produto_comprado[100], chave[100], compras[100];
     //unsigned short i;
