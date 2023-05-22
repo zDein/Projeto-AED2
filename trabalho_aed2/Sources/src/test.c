@@ -292,14 +292,14 @@ void organizar_lista(ELEM* inicio, LISTA* LISTA, int opcao){
                         }
                         break;
                     case 5:
-                        if(atual->dado.p.qtd_produto>proximo->dado.p.qtd_produto){
+                        if(atual->dado.p.qtd_produto<proximo->dado.p.qtd_produto){
                             aux = proximo->dado;
                             proximo->dado = atual->dado;
                             atual->dado = aux;
                         }
                         break;
                     case 6:
-                        if(atual->dado.p.qtd_produto<proximo->dado.p.qtd_produto){
+                        if(atual->dado.p.qtd_produto>proximo->dado.p.qtd_produto){
                             aux = proximo->dado;
                             proximo->dado = atual->dado;
                             atual->dado = aux;
