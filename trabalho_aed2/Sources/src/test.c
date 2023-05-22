@@ -63,10 +63,6 @@ noarv * acharmaior(noarv *arvore){
     }
 }
 
-/*int max(int a, int b) {
-    return a > b ? a : b;
-}*/
-
 // calcula a altura da arvore (maior caminho da raiz até um nó folha).
 int altura(noarv *arvore){ 
     if(arvore == NULL){
@@ -318,13 +314,13 @@ void organizar_lista(ELEM* inicio, LISTA* LISTA, int opcao){
     }
 }
 
-
 void imprimir_lista(ELEM* elemento){
     ELEM* aux = elemento;
     int continuar=1, count=25;
     while(aux!=NULL && continuar!=0){
         while(count-- && aux!=NULL){
-            printf("| %d\t %s - R$ %.2f \tQTD: %d\t\tNOTA: %.2f\n", aux->dado.p.id, aux->dado.p.nome_produto, aux->dado.p.preco, aux->dado.p.qtd_produto, aux->dado.p.nota);
+            
+            printf("| %d\t %s - R$ %.2f \tQTD: %-6d  NOTA: %.2f\n", aux->dado.p.id, aux->dado.p.nome_produto, aux->dado.p.preco, aux->dado.p.qtd_produto, aux->dado.p.nota);
             aux = aux->proximo;
         }
     }
@@ -333,9 +329,7 @@ void imprimir_lista(ELEM* elemento){
         scanf("%d", &continuar);
         count = 25;
     }
-
 }
-
 
 noarv* alterar_no(noarv* arvore, const char* produto_alterado) {
     int opc, qtd;
