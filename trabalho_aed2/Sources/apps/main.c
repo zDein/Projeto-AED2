@@ -6,7 +6,7 @@
 #include "test.h"
 
 int main(){
-    char nomep[100], produto_comprado[100], chave[100], compras[100];
+    char nomep[20], produto_comprado[100], chave[100], compras[100];
     //unsigned short i;
 	int num, op, quantidade, opcao_exibicao, id=0;
     float preco, nota;
@@ -39,7 +39,7 @@ int main(){
             break;
                     
             case 2: 
-                printf("insira o item a ser apagado!\n");
+                printf("Insira o ID do item a ser removido!\n");
                 scanf("%d", &num);
                 arvore = pop(arvore, num);
                 printf("\n");
@@ -62,7 +62,7 @@ int main(){
             break;
 
             case 4:
-                printf("insira o item a ser alterado!!\n");
+                printf("Insira o item a ser alterado!!\n");
                 scanf("%s", chave);
                 noarv* resultado2 = alterar_no(arvore, chave);
                 if (resultado2 != NULL) {
@@ -145,4 +145,6 @@ int main(){
     }while (op!=10);
     return 0;
 }
+	
+
 	
