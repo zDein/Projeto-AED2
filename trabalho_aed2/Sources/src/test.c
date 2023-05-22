@@ -337,7 +337,9 @@ void imprimir_lista(ELEM* elemento){
             aux = aux->proximo;
         }
     }
-    printf("\nData de emissao: %s", elemento->dado.p.horario);
+    puts("---------------------------------------------------------------------------------");
+    printf("Data de emissao: %s", elemento->dado.p.horario);
+    puts("---------------------------------------------------------------------------------");
     if(aux!=NULL){
         printf("\nDeseja exibir a proxima pagina?\nDigite 1 para sim e 0 para nao\n");
         scanf("%d", &continuar);
