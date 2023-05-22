@@ -64,9 +64,6 @@ noarv * acharmaior(noarv *arvore){
     }
 }
 
-/*int max(int a, int b) {
-    return a > b ? a : b;
-}*/
 
 // calcula a altura da arvore (maior caminho da raiz até um nó folha).
 int altura(noarv *arvore){ 
@@ -327,31 +324,33 @@ void imprimir_lista(ELEM* elemento){
     int continuar=1, count=25;
     time_t temp;
     time(&temp);
-    puts("\n---------------------------------------------------------------------------------");
+
     strcpy(elemento->dado.p.horario, ctime(&temp));
-    printf("\n| ID\tNome\t\t    Preco\tQuantidade\t Nota\n");
+    puts("\n---------------------------------------------------------------------------------");
+    printf("| ID\tNome\t\t    Preco\tQuantidade\t Nota\n");
+     puts("---------------------------------------------------------------------------------");
     while(aux!=NULL && continuar!=0){
-        while(count-- && aux!=NULL){
-            
+        while(count>0 && aux!=NULL){
             printf("| %d\t%-20sR$%-8.2f\tQTD: %-12dNOTA: %-12.2f\n", aux->dado.p.id, aux->dado.p.nome_produto, aux->dado.p.preco, aux->dado.p.qtd_produto, aux->dado.p.nota);
+            count--;
             aux = aux->proximo;
+        }
+        if(aux!=NULL){
+            printf("\nDeseja exibir a proxima pagina?\nDigite 1 para sim e 0 para nao\n");
+            scanf("%d", &continuar);
+            count = 25;
         }
     }
     puts("---------------------------------------------------------------------------------");
     printf("Data de emissao: %s", elemento->dado.p.horario);
     puts("---------------------------------------------------------------------------------");
-    if(aux!=NULL){
-        printf("\nDeseja exibir a proxima pagina?\nDigite 1 para sim e 0 para nao\n");
-        scanf("%d", &continuar);
-        count = 25;
-    }
 }
 
 
 noarv* alterar_no(noarv* arvore, const char* produto_alterado) {
     int opc, qtd;
     float preco, nota;
-    char nome[100];
+    char nome[20];
     noarv* resultado = buscarProduto(arvore, produto_alterado);
     if(resultado != NULL){
     printf("Informacoes do produto\n");
@@ -360,7 +359,7 @@ noarv* alterar_no(noarv* arvore, const char* produto_alterado) {
     printf("2 - Preço: %.2f\n", resultado->p.preco);
     printf("3 - Quantidade em estoque: %d\n", resultado->p.qtd_produto);
     printf("4 - Nota: %.2f\n", resultado->p.nota);
-    printf("==#entra com a opção que deseja alterar#==\n");
+    printf("==#Entra com a opção que deseja alterar#==\n");
     scanf("%d", &opc);
 
     if (opc == 1) {
@@ -389,7 +388,7 @@ noarv* alterar_no(noarv* arvore, const char* produto_alterado) {
 
     return resultado;
     }else{
-        printf("produto não encontrado");
+        printf("Produto não encontrado");
         return NULL;
     }
 }
@@ -426,10 +425,10 @@ noarv* compra(noarv* arvore, const char* produto_alterado) {
         if(resultado->p.qtd_produto - qtd >= 0){
             resultado->p.qtd_produto = resultado->p.qtd_produto - qtd;
             printf("PRODUTO COMPRADO COM SUCESSO\n");
-            printf("quantidade do produto em estoque: %d\n", resultado->p.qtd_produto);
+            printf("Quantidade do produto em estoque: %d\n", resultado->p.qtd_produto);
             
         }else{
-            printf("Quantidade de produtos insuficiente no estoque!\nQuantidade total: %d\n", resultado->p.qtd_produto);
+            printf("Quantidade de produtos insuficiente no estoque!\nQuantidade do produto em estoque: %d\n", resultado->p.qtd_produto);
         }
     if(resultado->p.qtd_produto == 0){
         pop(arvore, resultado->p.id);
