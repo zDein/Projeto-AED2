@@ -1,12 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdbool.h>
+#include <time.h>
+
 void menu() { 
-      printf("1 - Insira o produto\n");
-      printf("2 - Remova o produto\n");
-      printf("3 - Buscar o produto\n");
-      printf("4 - Alterar o produto\n");
+      printf("1 - Cadastrar produto\n");
+      printf("2 - Remover produtos do estoque\n");
+      printf("3 - Buscar produtos\n");
+      printf("4 - Alterar produtos\n");
       printf("5 - Exibir produtos em ordem alfabetica (A-Z)\n");
-      printf("6 - Mostra os produtos com maior notas\n");
-      printf("7 - Mostra os produtos com maior preco/menor preco\n");
-      printf("8 - Mostrar produtos com maior preco/menor estoque\n");
+      printf("6 - Listar produtos com maior notas\n");
+      printf("7 - Listar produtos com maior preco/menor preco\n");
+      printf("8 - Listar produtos com maior preco/menor estoque\n");
       printf("9 - Comprar produto\n");
       printf("10 - Sair\n");
       printf("Entre com a opcao desejada: \n");
@@ -20,33 +26,6 @@ void erase(noarv *arvore){
 		arvore = NULL;
 	}
 }
-
-//percorrendo arvore da esquerda depois a direita ate a raiz principal
-void viewPost(noarv *arvore){
-	if (arvore){
-		viewPost(arvore->esquerda);
-		viewPost(arvore->direita);
-		printf("| %d %s |", arvore->p.id, arvore->p.nome_produto);
-	}
-}
-
-void viewin(noarv *arvore){
-	if (arvore){
-		viewin(arvore->esquerda);
-		printf("| %d %s | ", arvore->p.id, arvore->p.nome_produto);
-		viewin(arvore->direita);
-	}
-}
-
-
-void viewpre(noarv *arvore){
-	if (arvore){
-		printf("| %d %s | ", arvore->p.id, arvore->p.nome_produto);
-		viewpre(arvore->esquerda);
-		viewpre(arvore->direita);
-	}
-}
-
 
 noarv* busca(noarv *arvore, int chave){
 
@@ -177,6 +156,8 @@ noarv* balanceamentoArvore(noarv *arvore){
 
 //função de inserir item na arvore
 noarv *insere(noarv *arvore, int numero, char nomep[], float preco, int quantidade_produto, float nota){ // função de inserir na arvore atualizada para tambem inserir na lista
+
+
     if(!arvore){
         arvore = (noarv *)malloc(sizeof(noarv));
         arvore->p.id = numero;
@@ -343,6 +324,10 @@ void organizar_lista(ELEM* inicio, LISTA* LISTA, int opcao){
 void imprimir_lista(ELEM* elemento){
     ELEM* aux = elemento;
     int continuar=1, count=25;
+    time_t temp;
+    time(&temp);
+
+    strcpy(elemento->dado.p.horario, ctime(&temp));
     printf("\n| ID\tNome\t\t    Preco\tQuantidade\t Nota\n");
     while(aux!=NULL && continuar!=0){
         while(count-- && aux!=NULL){
@@ -351,6 +336,7 @@ void imprimir_lista(ELEM* elemento){
             aux = aux->proximo;
         }
     }
+    printf("\nData de emissao: %s", elemento->dado.p.horario);
     if(aux!=NULL){
         printf("\nDeseja exibir a proxima pagina?\nDigite 1 para sim e 0 para nao\n");
         scanf("%d", &continuar);
