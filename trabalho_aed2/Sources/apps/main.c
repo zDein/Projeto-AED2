@@ -48,7 +48,7 @@ int main(int argc, char **argv){
 
             case 3: 
                 printf("insira o nome do produto a buscar:\n");
-                scanf("%s", produto_comprado);
+                scanf("%[^\n]", produto_comprado);
                 noarv* encontrado = buscarProduto(arvore, produto_comprado);
                 if (encontrado != NULL) {
                     printf("Informacoes do produto\n");
