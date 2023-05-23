@@ -4,40 +4,41 @@
 #include <stdbool.h>
 #include <time.h>
 #include "test.h"
+int main(int argc, char **argv){
+    char nomep[30], produto_comprado[100], chave[100], compras[100];
+	int num=0, op=0, quantidade=0, opcao_exibicao=0, id=0, qtd_insere=0;
+    float preco=0, nota=0;
+    noarv *arvore;
+    LISTA *lista_filtrada = NULL;
 
-int main(){
-    char nomep[20], produto_comprado[100], chave[100], compras[100];
-    //unsigned short i;
-	int num, op, quantidade, opcao_exibicao, id=0;
-    float preco, nota;
-    //unsigned short qtdcaso, caso = 0, qtdnos;
-    noarv *arvore = NULL;
-    LISTA *lista_filtrada;
-    
+
+    arvore = NULL;
+
     do {  
         menu();
         scanf("%d",&op);
+        getchar();
+
         switch (op) {
-        case 1:
-            id += 1;
-            printf("insira o preco do produto\n");
-            scanf("%f", &preco);
-            printf("insira a quantidade do produto\n");
-            scanf("%d", &quantidade);
-            printf("Insira a nota de qualidade do produto\n");
-            scanf("%f", &nota);
-            printf("insira o nome do produto!!\n");
-            scanf("%s", nomep);
-            
-            if(busca(arvore, id)){
-                printf("%d id ja cadastrado existe\n", id);
-            }
-            else{
+            case 1:
+                id += 1;
+                printf("insira o preco do produto\n");
+                scanf("%f", &preco);
+                getchar();
+                printf("insira a quantidade do produto\n");
+                scanf("%d", &quantidade);
+                getchar();
+                printf("Insira a nota de qualidade do produto\n");
+                scanf("%f", &nota);
+                getchar();
+                printf("insira o nome do produto!!\n");
+                scanf("%[^\n]", nomep);
+                getchar();
                 arvore = insere(arvore, id, nomep, preco, quantidade, nota);
-            } 
-            printf("\n");
-            break;
-                    
+                printf("\n");
+                
+                break;
+                        
             case 2: 
                 printf("Insira o ID do item a ser removido!\n");
                 scanf("%d", &num);
@@ -59,11 +60,12 @@ int main(){
                 } else {
                     printf("O produto %s não foi encontrado.\n", produto_comprado);
                 }
-            break;
+                break;
 
             case 4:
                 printf("Insira o item a ser alterado!!\n");
-                scanf("%s", chave);
+                scanf("%[^\n]", chave);
+                getchar();
                 noarv* resultado2 = alterar_no(arvore, chave);
                 if (resultado2 != NULL) {
                     printf("ALTERAÇÃO CONCLUIDA COM SUCESSO\n");
@@ -76,7 +78,7 @@ int main(){
                 }else{
                     printf("Produto não encontrado\n");
                 }
-            break;
+                break;
             case 5:
                 lista_filtrada = iniciar_lista();
                 inserir_nos(lista_filtrada, arvore);
@@ -86,7 +88,7 @@ int main(){
                 imprimir_lista(lista_filtrada->inicio); // maior estoque
                 resetar_lista(lista_filtrada->inicio);
                 printf("\n");
-            break;
+                break;
 
             case 6:
                 lista_filtrada = iniciar_lista();
@@ -97,9 +99,9 @@ int main(){
                 imprimir_lista(lista_filtrada->inicio);
                 resetar_lista(lista_filtrada->inicio);
                 printf("\n");
-            break;
-            
-             case 7:
+                break;
+                
+            case 7:
                 lista_filtrada = iniciar_lista();
                 printf("Digite 3 para mostrar os maiores precos ou 4 para exibir os menores\n");
                 scanf("%d", &opcao_exibicao);
@@ -112,7 +114,7 @@ int main(){
                     resetar_lista(lista_filtrada->inicio);  //maior/menor preco
                 }
                 printf("\n");
-            break;
+                break;
 
             case 8:
                 lista_filtrada = iniciar_lista();
@@ -140,11 +142,10 @@ int main(){
                 erase(arvore);
                 arvore = NULL;
                 //criar_arqui(S);
-            break;
+                break;
         }
+
     }while (op!=10);
+
     return 0;
 }
-	
-
-	
