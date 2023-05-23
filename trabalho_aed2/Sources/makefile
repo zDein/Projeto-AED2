@@ -6,41 +6,28 @@ OBJ = ./obj
 SRC = ./src
 
 FLAGS = -O3 -Wall
-LIBS = -lm -led -L $(LIB)
-
-
+LIBS = -lm -led -L$(LIB)
 
 all: libed myapps
 
-
 libed:
-	gcc -c ./src/test.c  -I ./include -o ./obj/function.o
+	gcc -c ./src/test.c -I$(INCLUDE) -o ./obj/function.o
 	ar -rcs ./lib/libed.a ./obj/*.o
 
-
 myapps: clean_apps
-	gcc ./apps/main.c ./obj/function.o -I ./include -o ./bin/app
+	gcc ./apps/main.c ./obj/function.o -I$(INCLUDE) -o ./bin/app
 
 $(OBJ)/%.o: $(SRC)/%.c $(INCLUDE)/%.h
-	gcc $(FLAGS) -c $< -I $(INCLUDE) -o $@
+	gcc $(FLAGS) -c $< -I$(INCLUDE) -o $@
 
 $(BIN)/%: $(APPS)/%.c
-	gcc $(FLAGS) $< $(LIBS) -I $(INCLUDE) -o $@
-
-
+	gcc $(FLAGS) $< $(LIBS) -I$(INCLUDE) -o $@
 
 run:
-	./bin/app
-
+	./bin/app < testes.txt
 
 clean:
-	rm ./bin/* ./obj/* ./lib/*
+	rm -f ./bin/* ./obj/* ./lib/*
 
 clean_apps:
-	rm -rf ./bin/*
-
-
-
-
-
-
+	rm -f ./bin/*
