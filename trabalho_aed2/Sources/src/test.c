@@ -331,7 +331,7 @@ void imprimir_lista(ELEM* elemento){
      puts("---------------------------------------------------------------------------------");
     while(aux!=NULL && continuar!=0){
         while(count>0 && aux!=NULL){
-            printf("| %d\t%-20sR$%-8.2f\tQTD: %-12dNOTA: %-12.2f\n", aux->dado.p.id, aux->dado.p.nome_produto, aux->dado.p.preco, aux->dado.p.qtd_produto, aux->dado.p.nota);
+            printf("| %-5d\t%-30sR$%-8.2f\tQTD: %-12dNOTA: %-12.2f\n", aux->dado.p.id, aux->dado.p.nome_produto, aux->dado.p.preco, aux->dado.p.qtd_produto, aux->dado.p.nota);
             count--;
             aux = aux->proximo;
         }
