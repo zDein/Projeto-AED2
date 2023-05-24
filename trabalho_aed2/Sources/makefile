@@ -20,6 +20,7 @@ libed:
 
 myapps: clean_apps
 	gcc ./apps/main.c ./obj/function.o -I ./include -o ./bin/app
+	gcc ./apps/maint.c ./obj/function.o -I ./include -o ./bin/appt
 
 $(OBJ)/%.o: $(SRC)/%.c $(INCLUDE)/%.h
 	gcc $(FLAGS) -c $< -I $(INCLUDE) -o $@
@@ -29,8 +30,15 @@ $(BIN)/%: $(APPS)/%.c
 
 
 
+run_teste2:
+	./bin/appt<teste20.txt>./txt/response.txt
+
+
+
 run_teste:
-	./bin/app < teste.txt > output.txt
+	./bin/appt<teste.txt>./txt/reponse10000.txt
+
+
 
 
 run:
