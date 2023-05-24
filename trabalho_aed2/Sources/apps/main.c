@@ -4,6 +4,7 @@
 #include <stdbool.h>
 #include <time.h>
 #include "test.h"
+
 int main(int argc, char **argv){
     char nomep[30], produto_comprado[100], chave[100], compras[100];
 	int num=0, op=0, quantidade=0, opcao_exibicao=0, id=0, qtd_insere=0;
