@@ -30,7 +30,7 @@ $(BIN)/%: $(APPS)/%.c
 
 
 run_teste:
-	./bin/app<teste.txt
+	./bin/app < teste.txt > output.txt
 
 
 run:
