@@ -387,8 +387,6 @@
 1 81 3978 6 Batom-Potente
 1 8 6478 1 Batom-Pratico
 1 64 730 6 Batom-Prata
-Aqui estão os números com o número 2 substituído por 3:
-
 3  Batom-Pratico
 3   Batom-Nitido
 3   Apontador-Ambar
@@ -525,7 +523,6 @@ Aqui estão os números com o número 2 substituído por 3:
 1 39 954 6 Bicicleta-Marmore
 1 5 7337 1 Bicicleta-Marrom
 1 54 5246 1 Bicicleta-Marmore
-
 3  Bicicleta-Magico
 3  Bicicleta-Marmore
 3  Bicicleta-Marmore
@@ -608,7 +605,6 @@ Aqui estão os números com o número 2 substituído por 3:
 1 18 3649 6 Binoculos-Azul
 1 97 7224 3 Binoculos-Barato
 1 79 6420 2 Binoculos-Bege
-
 2 688
 2 792
 2 25
@@ -880,7 +876,6 @@ Aqui estão os números com o número 2 substituído por 3:
 1 74 3978 9 Bola-Perfeito
 1 41 8232 4 Bola-Portatil
 1 79 6214 1 Bola-Potente
-
 3  7028
 3 Bola-Otimizado
 3  Bola-Potente
@@ -956,7 +951,6 @@ Aqui estão os números com o número 2 substituído por 3:
 1 63 3194 6 Bola-Safira
 1 55 8518 8 Bola-Seguro
 1 7 2023 5 Bola-Sepia
-
 2 834
 2 985
 2 172
@@ -1155,7 +1149,6 @@ Aqui estão os números com o número 2 substituído por 3:
 1 95 5245 1 Bone-Inovadora
 1 39 5949 1 Bone-Inteligente
 1 55 8738 6 Bone-Ivory
-
 2 817
 2 570
 2 325
@@ -1272,7 +1265,6 @@ Aqui estão os números com o número 2 substituído por 3:
 1 56 2475 2 Borracha-Esplendido
 1 33 4526 1 Borracha-Estavel
 1 67 3687 4 Borracha-Estiloso
-
 3  6445
 3  Borracha-Dupla
 3  1108
@@ -12824,7 +12816,6 @@ Aqui estão os números com o número 2 substituído por 3:
 1 93 285 2 Chave-Barato
 1 18 7544 6 Chave-Bege
 1 78 6028 1 Chave-Bordo
-
 3   420
 3 Chave-Azul
 3   272
@@ -12915,7 +12906,6 @@ Aqui estão os números com o número 2 substituído por 3:
 1 70 2504 1 Chave-Seguro
 1 40 5735 8 Chave-Sepia
 1 6 9487 1 Chave-Silencioso
-
 2 764
 2 989
 2 570
@@ -12939,7 +12929,6 @@ Aqui estão os números com o número 2 substituído por 3:
 2 574
 2 801
 2 63
-
 1 18 3958 3 Chave-Simples
 1 41 3876 4 Chave-Slim
 1 51 8196 1 Chave-Solido
@@ -15358,4 +15347,4 @@ Aqui estão os números com o número 2 substituído por 3:
 8 5
 0
 8 6
-0
+10
