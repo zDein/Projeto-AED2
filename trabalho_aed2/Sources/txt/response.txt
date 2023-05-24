@@ -1,0 +1,383 @@
+foi t1 - Cadastrar produto
+2 - Excluir produto
+3 - Buscar produto
+4 - Alterar produto
+5 - Listar produtos em ordem alfabetica (A-Z)
+6 - Listar produtos com maior nota
+7 - Listar produtos com maior preco/menor preco
+8 - Listar produtos com maior estoque/menor estoque
+9 - Comprar produto
+10 - Sair
+Entre com a opcao desejada: 
+insira o preco do produto
+insira a quantidade do produto
+Insira a nota de qualidade do produto
+insira o nome do produto!!
+
+1 - Cadastrar produto
+2 - Excluir produto
+3 - Buscar produto
+4 - Alterar produto
+5 - Listar produtos em ordem alfabetica (A-Z)
+6 - Listar produtos com maior nota
+7 - Listar produtos com maior preco/menor preco
+8 - Listar produtos com maior estoque/menor estoque
+9 - Comprar produto
+10 - Sair
+Entre com a opcao desejada: 
+insira o preco do produto
+insira a quantidade do produto
+Insira a nota de qualidade do produto
+insira o nome do produto!!
+
+1 - Cadastrar produto
+2 - Excluir produto
+3 - Buscar produto
+4 - Alterar produto
+5 - Listar produtos em ordem alfabetica (A-Z)
+6 - Listar produtos com maior nota
+7 - Listar produtos com maior preco/menor preco
+8 - Listar produtos com maior estoque/menor estoque
+9 - Comprar produto
+10 - Sair
+Entre com a opcao desejada: 
+insira o preco do produto
+insira a quantidade do produto
+Insira a nota de qualidade do produto
+insira o nome do produto!!
+
+1 - Cadastrar produto
+2 - Excluir produto
+3 - Buscar produto
+4 - Alterar produto
+5 - Listar produtos em ordem alfabetica (A-Z)
+6 - Listar produtos com maior nota
+7 - Listar produtos com maior preco/menor preco
+8 - Listar produtos com maior estoque/menor estoque
+9 - Comprar produto
+10 - Sair
+Entre com a opcao desejada: 
+insira o preco do produto
+insira a quantidade do produto
+Insira a nota de qualidade do produto
+insira o nome do produto!!
+
+1 - Cadastrar produto
+2 - Excluir produto
+3 - Buscar produto
+4 - Alterar produto
+5 - Listar produtos em ordem alfabetica (A-Z)
+6 - Listar produtos com maior nota
+7 - Listar produtos com maior preco/menor preco
+8 - Listar produtos com maior estoque/menor estoque
+9 - Comprar produto
+10 - Sair
+Entre com a opcao desejada: 
+insira o preco do produto
+insira a quantidade do produto
+Insira a nota de qualidade do produto
+insira o nome do produto!!
+
+1 - Cadastrar produto
+2 - Excluir produto
+3 - Buscar produto
+4 - Alterar produto
+5 - Listar produtos em ordem alfabetica (A-Z)
+6 - Listar produtos com maior nota
+7 - Listar produtos com maior preco/menor preco
+8 - Listar produtos com maior estoque/menor estoque
+9 - Comprar produto
+10 - Sair
+Entre com a opcao desejada: 
+insira o preco do produto
+insira a quantidade do produto
+Insira a nota de qualidade do produto
+insira o nome do produto!!
+
+1 - Cadastrar produto
+2 - Excluir produto
+3 - Buscar produto
+4 - Alterar produto
+5 - Listar produtos em ordem alfabetica (A-Z)
+6 - Listar produtos com maior nota
+7 - Listar produtos com maior preco/menor preco
+8 - Listar produtos com maior estoque/menor estoque
+9 - Comprar produto
+10 - Sair
+Entre com a opcao desejada: 
+insira o preco do produto
+insira a quantidade do produto
+Insira a nota de qualidade do produto
+insira o nome do produto!!
+
+1 - Cadastrar produto
+2 - Excluir produto
+3 - Buscar produto
+4 - Alterar produto
+5 - Listar produtos em ordem alfabetica (A-Z)
+6 - Listar produtos com maior nota
+7 - Listar produtos com maior preco/menor preco
+8 - Listar produtos com maior estoque/menor estoque
+9 - Comprar produto
+10 - Sair
+Entre com a opcao desejada: 
+insira o preco do produto
+insira a quantidade do produto
+Insira a nota de qualidade do produto
+insira o nome do produto!!
+
+1 - Cadastrar produto
+2 - Excluir produto
+3 - Buscar produto
+4 - Alterar produto
+5 - Listar produtos em ordem alfabetica (A-Z)
+6 - Listar produtos com maior nota
+7 - Listar produtos com maior preco/menor preco
+8 - Listar produtos com maior estoque/menor estoque
+9 - Comprar produto
+10 - Sair
+Entre com a opcao desejada: 
+insira o preco do produto
+insira a quantidade do produto
+Insira a nota de qualidade do produto
+insira o nome do produto!!
+
+1 - Cadastrar produto
+2 - Excluir produto
+3 - Buscar produto
+4 - Alterar produto
+5 - Listar produtos em ordem alfabetica (A-Z)
+6 - Listar produtos com maior nota
+7 - Listar produtos com maior preco/menor preco
+8 - Listar produtos com maior estoque/menor estoque
+9 - Comprar produto
+10 - Sair
+Entre com a opcao desejada: 
+insira o preco do produto
+insira a quantidade do produto
+Insira a nota de qualidade do produto
+insira o nome do produto!!
+
+1 - Cadastrar produto
+2 - Excluir produto
+3 - Buscar produto
+4 - Alterar produto
+5 - Listar produtos em ordem alfabetica (A-Z)
+6 - Listar produtos com maior nota
+7 - Listar produtos com maior preco/menor preco
+8 - Listar produtos com maior estoque/menor estoque
+9 - Comprar produto
+10 - Sair
+Entre com a opcao desejada: 
+insira o preco do produto
+insira a quantidade do produto
+Insira a nota de qualidade do produto
+insira o nome do produto!!
+
+1 - Cadastrar produto
+2 - Excluir produto
+3 - Buscar produto
+4 - Alterar produto
+5 - Listar produtos em ordem alfabetica (A-Z)
+6 - Listar produtos com maior nota
+7 - Listar produtos com maior preco/menor preco
+8 - Listar produtos com maior estoque/menor estoque
+9 - Comprar produto
+10 - Sair
+Entre com a opcao desejada: 
+insira o preco do produto
+insira a quantidade do produto
+Insira a nota de qualidade do produto
+insira o nome do produto!!
+
+1 - Cadastrar produto
+2 - Excluir produto
+3 - Buscar produto
+4 - Alterar produto
+5 - Listar produtos em ordem alfabetica (A-Z)
+6 - Listar produtos com maior nota
+7 - Listar produtos com maior preco/menor preco
+8 - Listar produtos com maior estoque/menor estoque
+9 - Comprar produto
+10 - Sair
+Entre com a opcao desejada: 
+insira o preco do produto
+insira a quantidade do produto
+Insira a nota de qualidade do produto
+insira o nome do produto!!
+
+1 - Cadastrar produto
+2 - Excluir produto
+3 - Buscar produto
+4 - Alterar produto
+5 - Listar produtos em ordem alfabetica (A-Z)
+6 - Listar produtos com maior nota
+7 - Listar produtos com maior preco/menor preco
+8 - Listar produtos com maior estoque/menor estoque
+9 - Comprar produto
+10 - Sair
+Entre com a opcao desejada: 
+insira o preco do produto
+insira a quantidade do produto
+Insira a nota de qualidade do produto
+insira o nome do produto!!
+
+1 - Cadastrar produto
+2 - Excluir produto
+3 - Buscar produto
+4 - Alterar produto
+5 - Listar produtos em ordem alfabetica (A-Z)
+6 - Listar produtos com maior nota
+7 - Listar produtos com maior preco/menor preco
+8 - Listar produtos com maior estoque/menor estoque
+9 - Comprar produto
+10 - Sair
+Entre com a opcao desejada: 
+insira o preco do produto
+insira a quantidade do produto
+Insira a nota de qualidade do produto
+insira o nome do produto!!
+
+1 - Cadastrar produto
+2 - Excluir produto
+3 - Buscar produto
+4 - Alterar produto
+5 - Listar produtos em ordem alfabetica (A-Z)
+6 - Listar produtos com maior nota
+7 - Listar produtos com maior preco/menor preco
+8 - Listar produtos com maior estoque/menor estoque
+9 - Comprar produto
+10 - Sair
+Entre com a opcao desejada: 
+insira o preco do produto
+insira a quantidade do produto
+Insira a nota de qualidade do produto
+insira o nome do produto!!
+
+1 - Cadastrar produto
+2 - Excluir produto
+3 - Buscar produto
+4 - Alterar produto
+5 - Listar produtos em ordem alfabetica (A-Z)
+6 - Listar produtos com maior nota
+7 - Listar produtos com maior preco/menor preco
+8 - Listar produtos com maior estoque/menor estoque
+9 - Comprar produto
+10 - Sair
+Entre com a opcao desejada: 
+insira o preco do produto
+insira a quantidade do produto
+Insira a nota de qualidade do produto
+insira o nome do produto!!
+
+1 - Cadastrar produto
+2 - Excluir produto
+3 - Buscar produto
+4 - Alterar produto
+5 - Listar produtos em ordem alfabetica (A-Z)
+6 - Listar produtos com maior nota
+7 - Listar produtos com maior preco/menor preco
+8 - Listar produtos com maior estoque/menor estoque
+9 - Comprar produto
+10 - Sair
+Entre com a opcao desejada: 
+insira o preco do produto
+insira a quantidade do produto
+Insira a nota de qualidade do produto
+insira o nome do produto!!
+
+1 - Cadastrar produto
+2 - Excluir produto
+3 - Buscar produto
+4 - Alterar produto
+5 - Listar produtos em ordem alfabetica (A-Z)
+6 - Listar produtos com maior nota
+7 - Listar produtos com maior preco/menor preco
+8 - Listar produtos com maior estoque/menor estoque
+9 - Comprar produto
+10 - Sair
+Entre com a opcao desejada: 
+insira o preco do produto
+insira a quantidade do produto
+Insira a nota de qualidade do produto
+insira o nome do produto!!
+
+1 - Cadastrar produto
+2 - Excluir produto
+3 - Buscar produto
+4 - Alterar produto
+5 - Listar produtos em ordem alfabetica (A-Z)
+6 - Listar produtos com maior nota
+7 - Listar produtos com maior preco/menor preco
+8 - Listar produtos com maior estoque/menor estoque
+9 - Comprar produto
+10 - Sair
+Entre com a opcao desejada: 
+insira o preco do produto
+insira a quantidade do produto
+Insira a nota de qualidade do produto
+insira o nome do produto!!
+
+1 - Cadastrar produto
+2 - Excluir produto
+3 - Buscar produto
+4 - Alterar produto
+5 - Listar produtos em ordem alfabetica (A-Z)
+6 - Listar produtos com maior nota
+7 - Listar produtos com maior preco/menor preco
+8 - Listar produtos com maior estoque/menor estoque
+9 - Comprar produto
+10 - Sair
+Entre com a opcao desejada: 
+insira o preco do produto
+insira a quantidade do produto
+Insira a nota de qualidade do produto
+insira o nome do produto!!
+
+1 - Cadastrar produto
+2 - Excluir produto
+3 - Buscar produto
+4 - Alterar produto
+5 - Listar produtos em ordem alfabetica (A-Z)
+6 - Listar produtos com maior nota
+7 - Listar produtos com maior preco/menor preco
+8 - Listar produtos com maior estoque/menor estoque
+9 - Comprar produto
+10 - Sair
+Entre com a opcao desejada: 
+insira o preco do produto
+insira a quantidade do produto
+Insira a nota de qualidade do produto
+insira o nome do produto!!
+
+Digite 3 para mostrar os maiores preços ou 4 para exibir os menores
+3
+
+---------------------------------------------------------------------------------
+| ID	Nome		    Preco	Quantidade	 Nota
+---------------------------------------------------------------------------------
+| 19   	Batom-Estavel                 R$96.00   	QTD: 6039        NOTA: 7.00        
+| 18   	Batom-Esplendido              R$92.00   	QTD: 7525        NOTA: 8.00        
+| 11   	Batom-Dupla                   R$91.00   	QTD: 522         NOTA: 6.00        
+| 4    	Batom-Compacta                R$89.00   	QTD: 9837        NOTA: 7.00        
+| 3    	Batom-Ciano                   R$88.00   	QTD: 4405        NOTA: 4.00        
+| 8    	ponta                         R$82.00   	QTD: 9700        NOTA: 3.00        
+| 7    	Batom-De                      R$82.00   	QTD: 9700        NOTA: 3.00        
+| 5    	Batom-Confiavel               R$81.00   	QTD: 6295        NOTA: 5.00        
+| 17   	Batom-Encantador              R$76.00   	QTD: 629         NOTA: 5.00        
+| 9    	Batom-Deslumbrante            R$72.00   	QTD: 2060        NOTA: 1.00        
+| 15   	Batom-Efetivo                 R$71.00   	QTD: 1072        NOTA: 2.00        
+| 1    	Batom-Brilhante               R$67.00   	QTD: 1988        NOTA: 3.00        
+| 16   	Batom-Elegante                R$67.00   	QTD: 85          NOTA: 6.00        
+| 13   	Batom-Economico               R$66.00   	QTD: 2764        NOTA: 3.00        
+| 2    	Batom-Chique                  R$47.00   	QTD: 243         NOTA: 1.00        
+| 22   	Bicicleta-Ampla               R$39.00   	QTD: 3813        NOTA: 2.00        
+| 10   	Batom-Dourado                 R$32.00   	QTD: 9300        NOTA: 5.00        
+| 6    	Batom-Confortavel             R$29.00   	QTD: 7100        NOTA: 2.00        
+| 12   	Batom-Durable                 R$28.00   	QTD: 2242        NOTA: 7.00        
+| 14   	Batom-Eficiente               R$19.00   	QTD: 931         NOTA: 1.00        
+| 21   	Batom-Extrema                 R$15.00   	QTD: 6743        NOTA: 7.00        
+| 20   	Batom-Estiloso                R$3.00    	QTD: 5318        NOTA: 4.00        
+---------------------------------------------------------------------------------
+Data de emissao: Tue May 23 23:58:12 2023
+---------------------------------------------------------------------------------
