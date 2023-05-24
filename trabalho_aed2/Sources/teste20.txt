@@ -1,0 +1,21 @@
+1 67 1988 3 Batom-Brilhante
+1 47 243 1 Batom-Chique
+1 88 4405 4 Batom-Ciano
+1 89 9837 7 Batom-Compacta
+1 81 6295 5 Batom-Confiavel
+1 29 7100 2 Batom-Confortavel
+1 82 9700 3 Batom-De ponta
+1 72 2060 1 Batom-Deslumbrante
+1 32 9300 5 Batom-Dourado
+1 91 522 6 Batom-Dupla
+1 28 2242 7 Batom-Durable
+1 66 2764 3 Batom-Economico
+1 19 931 1 Batom-Eficiente
+1 71 1072 2 Batom-Efetivo
+1 67 85 6 Batom-Elegante
+1 76 629 5 Batom-Encantador
+1 92 7525 8 Batom-Esplendido
+1 96 6039 7 Batom-Estavel
+1 3 5318 4 Batom-Estiloso
+1 15 6743 7 Batom-Extrema
+1 39 3813 2 Bicicleta-Ampla
